@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="vroomba" default="default">
+	
+    <target name="default" description="Clean binaries before running">
+    	<delete>
+    		<fileset dir=".">
+    		    <include name="*.nxd" />
+    			<include name="*.nxj" />
+    		</fileset>
+    	</delete>
+    </target>
+	
+</project>
